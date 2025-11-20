@@ -1,4 +1,5 @@
 # 基于逻辑回归的求职影响因素分析
+#### 《机器学习II》课程项目一
 
 ## 项目简介
 
@@ -8,16 +9,18 @@
 
 ```
 /
-├── data.csv # 原始数据文件
-├── process1.py # 数据预处理第一阶段：缺失值处理、特征筛选、处理重要特征
-├── process2.py # 数据预处理第二阶段：矛盾数据清洗、特征编码与标准化
-├── process_HaveWorkedWith.py # 数据预处理第零阶段：统计HaveWorkedWith列编程语言出现次数
-├── logistic.py # 逻辑回归模型训练、评估与特征影响分析
-├── data_trans1.csv # process1处理后的中间数据
-├── data_ready.csv # process2中清洗后未编码的中间数据
-├── data_total.csv # 特征工程完成后的最终用于机器学习训练的数据
-├── HaveWorkedWith_calculate.csv # 编程语言统计结果
-└── logistic_results/ # 模型评估结果（指标、图表等）
+├── hw1_code&data/
+    ├── data.csv # 原始数据文件
+    ├── process1.py # 数据预处理第一阶段：缺失值处理、特征筛选、处理重要特征
+    ├── process2.py # 数据预处理第二阶段：矛盾数据清洗、特征编码与标准化
+    ├── process_HaveWorkedWith.py # 数据预处理第零阶段：统计HaveWorkedWith列编程语言出现次数
+    ├── logistic.py # 逻辑回归模型训练、评估与特征影响分析
+    ├── data_trans1.csv # process1处理后的中间数据
+    ├── data_ready.csv # process2中清洗后未编码的中间数据
+    ├── data_total.csv # 特征工程完成后的最终用于机器学习训练的数据
+    ├── HaveWorkedWith_calculate.csv # 编程语言统计结果
+    └── logistic_results/ # 模型评估结果（指标、图表等）
+└── essay.pdf # 项目报告
 ```
 
 ## 环境依赖
